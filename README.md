@@ -2,6 +2,8 @@
 
 **Margin analysis and inverse design for superconducting (SFQ) logic cells — a JoSIM-verified oracle paired with a fast machine-learning surrogate for cell-level design-space exploration.**
 
+From [Cogitan](https://cogitan.ai) — superconducting design tools. Website: [cogitan.ai](https://cogitan.ai).
+
 Margo is a Python toolkit for working with single-flux-quantum (SFQ) logic cells at the
 netlist level. It pairs a JoSIM-based oracle — functional truth tables plus bias- and
 critical-current margin sweeps — with a learned netlist surrogate that estimates cell
@@ -70,4 +72,4 @@ problem = comp_dff_problem()
 
 ## License
 
-MIT — see `LICENSE`. Copyright (c) 2026 Cogitan.
+MIT — see `LICENSE`. Copyright (c) 2026 [Cogitan](https://cogitan.ai).
